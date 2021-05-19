@@ -1,0 +1,25 @@
+{
+  "name": "test-sunmedia",
+  "version": "1.0.0",
+  "description": "This application is for test",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -e selenium.chrome tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesly547/test-sunmedia.git"
+  },
+  "author": "Lesly Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lesly547/test-sunmedia/issues"
+  },
+  "homepage": "https://github.com/lesly547/test-sunmedia#readme",
+  "devDependencies": {
+    "chromedriver": "^90.0.0",
+    "geckodriver": "^2.0.0",
+    "iedriver": "^3.150.1",
+    "nightwatch": "^1.6.4",
+    "selenium-server": "^3.141.59"
+  }
+}
