@@ -1,7 +1,5 @@
 module.exports = {
     src_folders: ["tests"],
-    custom_commands_path: 'commands',
-    custom_assertions_path: 'asserts',
     page_objects_path: 'pom',
     globals_path: 'globals/constants.js',
   
